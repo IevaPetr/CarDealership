@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Header, footer, section */
+
+header, footer {
+    background-color: black;
+    height: 6vh;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+section {
+	height: 88vh;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-image: url("black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+/* Meniu juostos skiltys */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin: 1vh;
+    margin-left: 15px;
+}
+
+li a{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 200ms ease-in-out;
+}
+
+.active {
+    color: orange;
+}
+
+.active_img {
+    opacity: 30%;
+}
+
+.signout {
+    color: orange;
+    font-size: 12px;
+}
+
+/* Meniu juostos skilties paveiksliukai*/
+
+header img {
+    height: 18px;
+}
+
+header img:hover {
+    opacity: 70%;
+    transition: all 200ms ease-in-out;
+}
+
+.right {
+    float: right;
+}
+
+/* Homepage */
+
+.home {
+    background-image: url("background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home p {
+    color: orange;
+    font-family: arial black;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    /* opacity: 80%; */
+    text-shadow: 5px 5px black;
+}
+
+/* formos */
+
+.forma {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+
+form:not([class="auto"]) {
+	width: 500px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: orange;
+}
+
+input:not([type="checkbox"]) {
+	display: block;
+	border: 2px solid white;
+	width: 95%;
+	padding: 7px;
+	margin: 7px auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: orange;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin: 10px;
+    border: none;
+}
+button:hover{
+	opacity: .7;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 95%;
+    border: 2px solid #ccc;
+    padding: 7px;
+    margin: 7px auto;
+    margin-left: 10px;
+}
+

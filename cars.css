@@ -1,0 +1,62 @@
+/* Kortele */
+.card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+/* Nuotraukos divas */
+.card .cover {
+    border-radius: 15px 15px 0 0;
+    height: 160px;
+    overflow: hidden;
+}
+
+/* Korteliu divas */
+.card-container{
+	width: 280px;
+	float: left;
+    margin: 10px;
+}
+
+/* Korteles vidurine dalis su tekstu */
+.card .content .main {
+    height: 170px;
+    border-bottom: solid 1px rgba(204, 204, 204, 0.5);
+}
+
+/* Auto modelis */
+.card .name {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 15px 0 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: orange;
+}
+
+/* Auto kaina */
+.card .price{
+	color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Pavadinimas */
+.card .title{
+	display: block;
+	float: left;
+	padding: 0px 0 0 20px;
+    width: 150px;
+    color: white;
+}
+
+/* Aprasas */
+.card .value{
+	display: block;
+	float: right;
+	padding-right: 20px;
+	color: white;
+}
